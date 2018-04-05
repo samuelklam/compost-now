@@ -16,6 +16,6 @@
     "url": "https://github.com/samuelklam/compostOn"
   },
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.16.3"
   }
 }
