@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>CompostOn</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<header class="page_header header_white toggler_xs_right section_padding_20">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12 display_table">
+							<div class="header_left_logo display_table_cell">
+								<a href="./" class="logo top_logo">
+									<img src="images/logo.png" alt="">
+									<span class="logo_text">
+										<span class="big">CompostOn</span>
+										<span class="small-text"></span>
+									</span>
+								</a>
+							</div>
+
+							<div class="header_mainmenu display_table_cell text-center">
+								<!-- main nav start -->
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu">
+										<li class="active">
+											<a href="index.html">Home</a>
+										</li>
+
+										<li>
+											<a href="about.html">About</a>
+										</li>
+
+										<li>
+											<a href="compost_listings.html">Compost Listings</a>
+										</li>
+										<!-- eof pages -->
+
+										<!-- contacts -->
+										<li>
+											<a href="contact.html">Contact</a>
+										</li>
+										<!-- eof contacts -->
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+								<!-- header toggler -->
+								<span class="toggle_menu">
+									<span></span>
+								</span>
+							</div>
+
+							<div class="header_right_buttons display_table_cell text-right hidden-xs">
+								<div class="darklinks">
+									<a href="#" class="social-icon border-icon rounded-icon soc-facebook"></a>
+									<a href="#" class="social-icon border-icon rounded-icon soc-twitter"></a>
+									<a href="#" class="social-icon border-icon rounded-icon soc-google"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="page_breadcrumbs ds parallax section_padding_top_65 section_padding_bottom_65">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="highlight">Compost Listings</h2>
+							<ol class="breadcrumb darklinks">
+								<li>
+									<a href="./">
+										Home
+									</a>
+								</li>
+								<li class="active">Compost Listings</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ls section_padding_top_100 section_padding_bottom_100 columns_padding_25">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-sm-12">
+
+							<div class="shop-sorting">
+
+								<form class="form-inline content-justify vertical-center content-margins">
+
+									<div class="fontsize_20">
+										1-3 of 50 results
+									</div>
+									<div class="form-group select-group">
+										<select aria-required="true" id="date" name="date" class="choice empty form-control">
+											<option value="" disabled selected data-default>Filter</option>
+											<option value="value">by Weight</option>
+											<option value="date">by Date</option>
+											<option value="popular">by Popularity</option>
+										</select>
+										<i class="fa fa-angle-down theme_button" aria-hidden="true"></i>
+									</div>
+
+								</form>
+
+							</div>
+
+
+							<div class="columns-3">
+
+								<ul id="products" class="products list-unstyled">
+									<li class="product type-product">
+										<div class="vertical-item">
+											<div class="item-media with_background bottommargin_30">
+												<img src="images/compost_listings/egg_shells.jpg" alt="" />
+											</div>
+											<div class="item-content">
+												<h4 class="poppins bottommargin_10">
+													<a href="shop-product-right.html">Egg Shells</a>
+												</h4>
+												<p class="price">
+										<ins>
+											<span class="amount">3 Lbs</span>
+										</ins>
+									</p>
+												<a href="#" class="theme_button color1">Request Pickup</a>
+											</div>
+										</div>
+									</li>
+
+									<li class="product type-product">
+										<div class="vertical-item">
+											<div class="item-media with_background bottommargin_30">
+												<img src="images/compost_listings/fruits_and_veggies_scraps.jpg" alt="" />
+											</div>
+											<div class="item-content">
+												<h4 class="poppins bottommargin_10">
+													<a href="">Fruit and Veggie Peels</a>
+												</h4>
+												<p class="price">
+										<ins>
+											<span class="amount">Retaurant Name | 6 lbs</span>
+										</ins>
+									</p>
+												<a href="#" class="theme_button color1">Add to cart</a>
+											</div>
+										</div>
+									</li>
+
+									<li class="product type-product">
+										<div class="vertical-item">
+											<div class="item-media with_background bottommargin_30">
+												<img src="images/compost_listings/pasta.jpg" alt="" />
+											</div>
+											<div class="item-content">
+												<h4 class="poppins bottommargin_10">
+													<a href="">Restaurant Name | Leftover Pasta</a>
+												</h4>
+												<p class="price">
+										<ins>
+											<span class="amount">Restaurant 1 | 10 lbs</span>
+										</ins>
+									</p>
+												<a href="#" class="theme_button color1">Add to cart</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+
+							</div>
+							<!-- eof .columns-* -->
+
+
+							<div class="row">
+								<div class="col-sm-12 text-center">
+									<ul class="pagination highlightlinks">
+										<li class="disabled">
+											<a href="#">
+												<span class="sr-only">Prev</span>
+												<i class="fa fa-angle-left" aria-hidden="true"></i>
+											</a>
+										</li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li>
+											<a href="#">
+												<span class="sr-only">Next</span>
+												<i class="fa fa-angle-right" aria-hidden="true"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<footer class="page_footer ds section_padding_top_100 section_padding_bottom_65 columns_padding_25">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-4 col-sm-12 text-center">
+							<div class="widget">
+								<a href="./" class="logo bg_logo bottommargin_25">
+									<img src="../images/logo.png" alt="">
+									<span class="logo_text">
+										<span class="big">CompostOn</span>
+									</span>
+								</a>
+								<p>
+						Composting since 1342.
+					</p>
+								<div class="line-height-thin">
+									<div class="media small-teaser inline-block margin_0">
+										<div class="media-left media-middle">
+											<i class="fa fa-map-marker highlight2" aria-hidden="true"></i>
+										</div>
+										<div class="media-body media-middle grey">
+											123 Cambridge, MA 02138
+										</div>
+									</div>
+									<br>
+									<div class="media small-teaser inline-block margin_0">
+										<div class="media-left media-middle">
+											<i class="fa fa-phone highlight2" aria-hidden="true"></i>
+										</div>
+										<div class="media-body media-middle grey">
+											01 123 456 789
+										</div>
+									</div>
+									<br>
+									<div class="media small-teaser inline-block margin_0">
+										<div class="media-left media-middle">
+											<i class="fa fa-map-marker highlight2" aria-hidden="true"></i>
+										</div>
+										<div class="media-body media-middle highlightlinks">
+											<a href="#">composton@support.com</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="darklinks topmargin_20">
+									<a href="#" class="social-icon border-icon rounded-icon soc-facebook"></a>
+									<a href="#" class="social-icon border-icon rounded-icon soc-twitter"></a>
+									<a href="#" class="social-icon border-icon rounded-icon soc-google"></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-6 text-center">
+							<div class="widget widget_contact topmargin_10">
+								<h3>Contact Form</h3>
+								<form class="contact-form topmargin_45" method="post" action="./">
+									<p class="contact-form-name">
+							<label for="footer-name">Name <span class="required">*</span></label>
+							<input type="text" aria-required="true" size="30" value="" name="name" id="footer-name" class="form-control text-center" placeholder="Full Name">
+						</p>
+									<p class="contact-form-email">
+							<label for="footer-email">Email <span class="required">*</span></label>
+							<input type="email" aria-required="true" size="30" value="" name="email" id="footer-email" class="form-control text-center" placeholder="Email Address">
+						</p>
+									<p class="contact-form-message">
+							<label for="footer-message">Message</label>
+							<textarea aria-required="true" rows="3" cols="45" name="message" id="footer-message" class="form-control text-center" placeholder="Message"></textarea>
+						</p>
+									<p class="footer_contact-form-submit topmargin_30">
+							<button type="submit" id="footer_contact_form_submit" name="contact_submit" class="theme_button color1 wide_button">Send Message</button>
+						</p>
+								</form>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-6 text-center">
+
+							<div class="widget widget_recent_entries topmargin_10">
+
+								<h3 class="widget-title">Recent News</h3>
+								<ul class="greylinks">
+									<li>
+										<p class="margin_0">
+								<a href="blog-single-right.html">
+									Fruits and Veggies
+								</a>
+							</p>
+										<span class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												March 9, 2017
+											</time>
+										</span>
+									</li>
+									<li>
+										<p class="margin_0">
+								<a href="blog-single-right.html">
+									Fruits and Veggies
+								</a>
+							</p>
+										<span class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												March 9, 2017
+											</time>
+										</span>
+									</li>
+									<li>
+										<p class="margin_0">
+								<a href="blog-single-right.html">
+									Fruits and Veggies
+								</a>
+							</p>
+										<span class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												March 9, 2017
+											</time>
+										</span>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</footer>
+
+			<section class="ls page_copyright section_padding_15">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p class="small-text small-spacing grey">&copy; Copyright 2018 | CompostOn All Rights Reserved</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
