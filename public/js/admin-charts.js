@@ -18,7 +18,7 @@
 				data: {
 					labels: MONTHS,
 					datasets: [{
-						label: "Unique Visitors",
+						label: "Unique Listings",
 						backgroundColor: 'rgba(244, 161, 21, 0.5)',
 						borderColor: 'rgba(244, 161, 21, 0.5)',
 						borderWidth: '0',
@@ -96,7 +96,7 @@
 				data: {
 					labels: DAYS,
 					datasets: [{
-						label: "Unique Visitors",
+						label: "Unique Listings",
 						backgroundColor: 'rgba(236, 104, 46, 0.5)',
 						borderColor: 'rgba(236, 104, 46, 0.5)',
 						borderWidth: '0',
@@ -204,7 +204,7 @@
 						fill: false,
 					}, 
 					{
-						label: "Sells",
+						label: "Pickups",
 						backgroundColor: 'rgba(111, 211, 227, 0.6)',
 						borderColor: 'rgba(91, 173, 186, 0.5)',
 						borderWidth: 3,
@@ -230,7 +230,7 @@
 					responsive: true,
 					title:{
 						display:true,
-						text:'Visitors with Sells'
+						text:'Visitors with Pickups'
 					},
 					tooltips: {
 						mode: 'index',

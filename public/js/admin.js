@@ -170,7 +170,7 @@
 				data: {
 					labels: MONTHS_HALF,
 					datasets: [{
-						label: "Unique Visitors",
+						label: "Unique Listings",
 						backgroundColor: 'rgba(77, 177, 158, 0.5)',
 						borderColor: 'rgba(77, 177, 158, 0.5)',
 						borderWidth: '0',
@@ -209,7 +209,7 @@
 				data: {
 					labels: DAYS,
 					datasets: [{
-						label: "Unique Visitors",
+						label: "Unique Views",
 						backgroundColor: 'rgba(236, 104, 46, 0.5)',
 						borderColor: 'rgba(236, 104, 46, 0.5)',
 						borderWidth: '0',
@@ -259,7 +259,7 @@
 				data: {
 					labels: DAYS,
 					datasets: [{
-						label: "Visitors",
+						label: "Listings",
 						backgroundColor: 'rgba(236, 104, 46, 0.5)',
 						borderColor: 'rgba(236, 104, 46, 0.5)',
 						borderWidth: 3,
@@ -285,7 +285,7 @@
 						fill: false,
 					}, 
 					{
-						label: "Sells",
+						label: "Pickups",
 						backgroundColor: 'rgba(111, 211, 227, 0.6)',
 						borderColor: 'rgba(91, 173, 186, 0.5)',
 						borderWidth: 3,

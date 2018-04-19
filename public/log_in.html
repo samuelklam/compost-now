@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
 	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<script src="js/gardener_vs_restaurant_admin.js"></script>
 
 	<!--[if lt IE 9]>
 		<script src="js/vendor/html5shiv.min.js"></script>
@@ -158,9 +159,9 @@
                                                 <div class="col-sm-12">
                                                     <div class="dropdown menu">
                                                         <body> Select your account type. </body>
-                                                        <select>
-                                                            <option value="restaurant">Restaurant</option>
-                                                            <option value="gardener">Gardener</option>
+                                                        <select id="option-admin">
+                                                            <option value="admin_profile_restaurant_edit.html" selected="selected">Restaurant</option>
+                                                            <option value="admin_profile_gardener_edit.html">Gardener</option>
                                                           </select>
                                                     </div>
                                                 </div>
@@ -176,7 +177,7 @@
 											</div>
 										</div>
 										
-										<a class="theme_button block_button color" href="admin_profile_gardener_edit.html">Log on</a>
+										<a class="theme_button block_button color" onclick="mysubmit()">Log on</a>
 									</form>
 								</div>
 
