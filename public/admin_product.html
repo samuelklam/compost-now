@@ -357,8 +357,8 @@
 
 					<div class="row">
 						<div class="col-sm-12">
-							<h3>Edit Compost Listing
-							</h3>
+							<h3>Edit Compost Listing </h3>
+							<h5> Type in your edits to your compost listing here!</h5>
 						</div>
 					</div>
 					<!-- .row -->
@@ -373,7 +373,7 @@
 									<h4>
 										Compost Info
 										<span class="pull-right">
-											<button type="submit" class="theme_button small_button">Save Listing</button>
+											<a href="admin_products.html" button type="submit" class="theme_button wide_button">Save Listing</button> </a>
 										</span>
 
 									</h4>
@@ -383,40 +383,40 @@
 									<div class="row form-group">
 										<label class="col-lg-3 control-label">Compost title: </label>
 										<div class="col-lg-9">
-											<input type="text" class="form-control">
+											<input type="text" placeholder="What are you composting?" class="form-control">
 										</div>
 									</div>
 									<div class="row form-group">
 										<label class="col-lg-3 control-label">Quantity: </label>
 										<div class="col-lg-9">
-											<input type="text" class="form-control">
+											<input type="text" placeholder="How many of these things are you composting?" class="form-control">
 										</div>
 									</div>
 
 									<div class="row form-group admin-product-price">
 										<label class="col-lg-3 control-label">Compost Weight: </label>
 										<div class="col-lg-9">
-											<input type="number" step="0.01" class="form-control">
+											<input type="number" placeholder="What is the weight of what your composting (in lbs)?" class="form-control">
 										</div>
 									</div>
 
 									<div class="row form-group">
 										<label class="col-lg-3 control-label">Short description: </label>
 										<div class="col-lg-9">
-											<textarea rows="3" class="form-control"></textarea>
+											<textarea rows="3" placeholder="Provide a description of your compost." class="form-control"></textarea>
 										</div>
 									</div>
 
 									<div class="row form-group">
 										<label class="col-lg-3 control-label">Pickup Instructions: </label>
 										<div class="col-lg-9">
-											<textarea rows="8" class="form-control"></textarea>
+											<textarea rows="8" placeholder="How do you want gardeners to collect your compost?" class="form-control"></textarea>
 										</div>
 									</div>
 
 									<div class="row">
 										<div class="col-sm-12 text-right">
-											<button type="submit" class="theme_button wide_button">Save Listing</button>
+											<a href="admin_products.html" button type="submit" class="theme_button wide_button">Save Listing</button> </a>
 											<a href="admin_products.html" class="theme_button inverse wide_button">Cancel</a>
 										</div>
 									</div>
@@ -462,14 +462,14 @@
 									<div class="row form-group">
 										<label class="col-lg-3 control-label">Categories:</label>
 										<div class="col-lg-9">
-											<input type="text" class="form-control">
-										</div>
-									</div>
-
-									<div class="row form-group">
-										<label class="col-lg-3 control-label">Product Tags: </label>
-										<div class="col-lg-9">
-											<input type="text" class="form-control">
+												<select class="form-control">
+														<option selected="">Select Category</option>
+														<option>Fruit</option>
+														<option>Legumes</option>
+														<option>Vegetables</option>
+														<option>Soiled Papers</option>
+														<option>Other</option>
+												</select>
 										</div>
 									</div>
 
@@ -486,7 +486,7 @@
 
 
 										<div class="item-media">
-											<img src="images/gallery/01.jpg" alt="...">
+											<img src="images/compost_listings/egg_shells.jpg" alt="...">
 										</div>
 
 										<div class="item-edit-controls darklinks">
@@ -501,7 +501,7 @@
 
 									<div>
 										<label class="control-label">Upload Pictures: </label>
-										<input type="text" class="form-control">
+										<input type="file" id="user-profile-avatar">
 									</div>
 
 								</div>
