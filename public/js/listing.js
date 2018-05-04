@@ -133,10 +133,10 @@ function render(listings) {
     
     let compostlistingsElm = document.querySelector('.compostlistings');
 
-    if (url == "/public/compost_listings.html" || url == "compost_listings.html") {
+    if (url == "/public/compost_listings.html" || url == "/compost_listings.html") {
         // compost_listings.html
         compostlistingsElm.innerHTML = listings.map(p => renderCompostListings(p)).join('');
-    } else if (url == "/public/admin_products.html" || url =="admin_products.html") {
+    } else if (url == "/public/admin_products.html" || url =="/admin_products.html") {
         // admin_products.html
         compostlistingsElm.innerHTML = listings.map(p => renderAdminProducts(p)).join('');
     }
